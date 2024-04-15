@@ -1,0 +1,47 @@
+.header {
+    text-align: center;
+    margin: 2%;
+}
+
+.media {
+    display: grid;
+    gap: 25px;
+    padding: 50px;
+    margin-bottom: 20%;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.media__song {
+    grid-column: 1;
+    grid-row: 1;
+    width: 500px;
+    width: 90%;
+}
+
+.media__film {
+    grid-column: 1;
+    grid-row: 2;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.media__map {
+    grid-column: 2;
+    grid-row: 1/3;
+    width: 978px;
+    height: 96%;
+}
+
+.media__record {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.media__heading {
+    text-align: center;
+}
